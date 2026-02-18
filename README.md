@@ -6,6 +6,7 @@ This project reviews real time shifts in the overall sentiment for stock prices 
 ## What does this mean?
 A sentiment is the overall attitude, mood, or psychology of investors toward a particular stock or the financial market as a whole, reflecting whether they are optimistic ("bullish") or pessimistic ("bearish"). 
 It acts as a driving force behind supply and demand, influencing price movements independent of fundamental, intrinsic value.
+## Why does this matter?
 I noticed how tedious and time-consuming it can be to manually look at these observations, as it can be slightly inconvineient to refresh a page to check for updates, and/or
 making your own observations by looking at the market history for the past week.
 I wanted something slightly more convinent for myself as person new to this field of investing.
