@@ -16,11 +16,11 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.9'
+        python-version: '3.11'
 
     - name: Install dependencies
       run: |
-        pip install requests pandas sqlalchemy psycopg2-binary gspread oauth2client
+        pip install requests pandas sqlalchemy psycopg2-binary gspread oauth2client gspread-dataframe
 
     - name: Run script
       env:
