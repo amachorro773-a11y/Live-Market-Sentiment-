@@ -12,6 +12,6 @@ It acts as a driving force behind supply and demand, influencing price movements
   I wanted something slightly more convinent for myself as person new to this field of investing.
 - So I created an end to end python piplines that pulls, processes, and pushes data onto a live dashboard.
 
-# Tools and Data Structures
+# Tech Stack and High Level Overview
 <img width="930" height="716" alt="Live_Market drawio" src="https://github.com/user-attachments/assets/db8196ad-0759-4c5b-8b83-d64c268dd92d" />
 
