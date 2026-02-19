@@ -2,7 +2,7 @@
 As a person new to investing, I wanted to make sure that I was making the right purchases on the "best" or most "reliable" stock. 
 Being new to this field of investing, I wanted to create this project to learn more about stocks and thier behaviors, while creating a useful tool to
 make the right stock purchases.\
-This project reviews real time shifts in the overall sentiment for stock prices in the technology sector, tracking market trends for specific tickers such as AAPL (Apple Inc. Stock).
+This project reviews **real time shifts in the overall sentiment for stock prices in the technology sector, tracking market trends for specific tickers such as AAPL (Apple Inc. Stock).**
 ## What does this mean?
 A sentiment is the overall attitude, mood, or psychology of investors toward a particular stock or the financial market as a whole, reflecting whether they are optimistic ("bullish") or pessimistic ("bearish"). 
 It acts as a driving force behind supply and demand, influencing price movements independent of fundamental, intrinsic value.
