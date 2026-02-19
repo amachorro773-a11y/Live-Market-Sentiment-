@@ -29,7 +29,9 @@ In Alpha Vantage's "technology" sector, relevant data is formatted into these ca
 <img width="930" height="716" alt="Live_Market drawio" src="https://github.com/user-attachments/assets/db8196ad-0759-4c5b-8b83-d64c268dd92d" />
 
 # Executive Summary
-The **Market Sentiment Intelligence Dashboard** is an end-to-end data solution that transforms raw financial news into actionable insights. By automating data extraction via the **Alpha Vantage API** and leveraging a **Python-to-Tablea**u pipeline, the project quantifies market volatility and trend stability. The dashboard provides a real-time 'Market Pulse,' (updatede version avaiable in link below) surfacing the **Top 5 most impactful headlines** to explain the root causes of sentiment shifts and identifying the most **bullish market signals** currently driving the news cycle.
+This **Market Sentiment Intelligence Dashboard** is an end-to-end data solution that transforms raw financial news into actionable insights.\
+By automating data extraction via the **Alpha Vantage API** and leveraging a **Python-to-Tablea**u pipeline, the project quantifies market volatility and trend stability, as well as a **real-time 'Market Pulse,'** surfacing the **Top 5 most impactful headlines** to explain the root causes of sentiment shifts and identifying the most **bullish market signals** driving the news cycle. 
+(Updated version in link below)
 
 
 <img width="649" height="859" alt="Dashboard 1 (2)" src="https://github.com/user-attachments/assets/dd482a92-2813-479e-8a20-bd99c48c6a01" />
