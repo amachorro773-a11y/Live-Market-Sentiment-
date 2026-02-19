@@ -32,7 +32,9 @@ In Alpha Vantage's "technology" sector, relevant data is formatted into these ca
 The **Market Sentiment Intelligence Dashboard** is an end-to-end data solution that transforms raw financial news into actionable insights. By automating data extraction via the **Alpha Vantage API** and leveraging a **Python-to-Tablea**u pipeline, the project quantifies market volatility and trend stability. The dashboard provides a real-time 'Market Pulse,' surfacing the **Top 5 most impactful headlines** to explain the root causes of sentiment shifts and identifying the most **bullish market signals** currently driving the news cycle.
 
 
-<img width="649" height="859" alt="Dashboard 1" src="https://github.com/user-attachments/assets/349fd5e5-c6ef-40f7-b5e5-cda4ef252278" />
+<img width="649" height="859" alt="Dashboard 1 (2)" src="https://github.com/user-attachments/assets/dd482a92-2813-479e-8a20-bd99c48c6a01" />
+
+
 
 
 Check out the live dashboard here: [Live Tableau Dashboard](https://public.tableau.com/shared/2ZS43KD5C?:display_count=n&:origin=viz_share_link)
