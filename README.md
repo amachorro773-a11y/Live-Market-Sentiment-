@@ -1,5 +1,5 @@
 # Project Background
-As a person new to investing, I wanted to make sure that I was making the correct purchases on "best" or most "reliable" stock. 
+As a person new to investing, I wanted to make sure that I was making the right purchases on the "best" or most "reliable" stock. 
 Being new to this field of investing, I wanted to create this project to learn more about stocks and thier behaviors, while creating a useful tool to
 make the right stock purchases.
 This project reviews real time shifts in the overall sentiment for stock prices in the technology sector, tracking market trends for specific tickers such as AAPL (Apple Inc. Stock).
