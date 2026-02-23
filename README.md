@@ -9,7 +9,7 @@ It acts as a driving force behind supply and demand, influencing price movements
 ## Why does this matter?
 - I noticed how tedious and time-consuming it can be to manually look at these observations, as it can be slightly inconvineient to refresh a page to check for updates, and/or
   making your own observations by looking at the market history for the past week.
-  I wanted something slightly more convinent for myself as person new to this field of investing.
+  I wanted something slightly more convinent for myself, something that shows me the market history.
 - So I created an end to end python piplines that pulls, processes, and pushes data onto a live dashboard.
 
 # Tech Stack and Data Structures
