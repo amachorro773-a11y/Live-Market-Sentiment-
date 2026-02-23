@@ -42,8 +42,13 @@ By automating data extraction via the **Alpha Vantage API** and leveraging a **P
 Check out the live dashboard here: [Live Tableau Dashboard](https://public.tableau.com/shared/2ZS43KD5C?:display_count=n&:origin=viz_share_link)
 
 ## Market Sentiment Pulse
-**Why?**
-- A raw sentiment is volatile, so with many sentiments rolling in we use the moving average to gauge the long-term vibe of the market
+- A raw sentiment is volatile, so with many sentiments rolling in we use the moving average to gauge the long-term vibe of the market.
+## Market Vibe Gauge
+- Shows the distribution of Bearish vs. Bullish news counts, as well as neutral news. This provides a quick "health check" of the current
+  news volume
+## Top 5 Headlines
+- Provides the root cause for any spikes or dips seen in the Pulse timeline, allowing stakeholders to immediately identify the event.
+  Demonstrated by displaying the most relevant news in a text table.
 
 
 
