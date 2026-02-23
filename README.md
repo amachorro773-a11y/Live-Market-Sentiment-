@@ -67,3 +67,14 @@ A dynamic text table sorted by the highest absolute sentiment scores.
 2. If the market seems good, meaning a shift upwards, I focus on the "Outliers" in the top corners of the Sentiment vs. Relevance chart, these are the high relevance, high sentiment articles that actually move stock prices.
 3. If there are bullish stocks, on the top right, I view the Top 5 Headlines table to see the best sentiment stocks with the highest relevance towards Apple (or any specified ticker of my choice).
 SIDE NOTE: While high sentiment is a strong indicator, this dashboard is intended to be used alongside technical price analysis and volume data to confirm entry points.
+
+# Challenges & Lessons Learned
+- API Rate Limiting: One of the main hurdles was managing the Alpha Vantage API's free tier limits. I solved this by implementing a "caching" logic in Python, storing the daily news in Google Sheets so Tableau doesn't trigger a new API call every time a user refreshes the dashboard.
+  
+- Github Actions: I needed the data pipeline to run reliably every day without relying on my local machine's uptime or using local scheduling tools like cron. So I migrated the execution layer to GitHub Actions, configured a .yml workflow to trigger the Python script on a daily schedule, ensuring the Tableau dashboard stays updated automatically.
+  
+- Github Actions Secrets for Security: To protect my API credentials, I implemented GitHub Actions Secrets. This taught me the importance of environment variable management—allowing the script to fetch and send data (Alpha Vantage and Google Sheets) securely without exposing sensitive API keys in the public repository.
+  
+- Data Consistency: Since this data-set was a bit unorganized, I had to write custom cleaning functions to handle special characters in headlines and ensure the time_published strings were correctly parsed into a Tableau friendly DateTime format.
+
+- Aggregation Bias: Initially, I used "Sum" for sentiment, which skewed results toward stocks with high news volume. Switching to Moving Averages (AVG) was a key pivot that made the "Market Pulse" a more accurate reflection of actual sentiment trends.
