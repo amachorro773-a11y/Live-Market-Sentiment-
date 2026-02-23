@@ -73,7 +73,7 @@ __SIDE NOTE:__ While high sentiment is a strong indicator, this dashboard is int
   
 - Github Actions: I needed the data pipeline to run reliably every day without relying on my local machine's uptime or using local scheduling tools like cron. So I migrated the execution layer to GitHub Actions, configured a .yml workflow to trigger the Python script on a daily schedule, ensuring the Tableau dashboard stays updated automatically.
   
-- Github Actions Secrets for Security: To protect my API credentials, I implemented GitHub Actions Secrets. This taught me the importance of environment variable management—allowing the script to fetch and send data (Alpha Vantage and Google Sheets) securely without exposing sensitive API keys in the public repository.
+- Github Actions Secrets for Security: To protect my API credentials, I implemented GitHub Actions Secrets. This taught me the importance of environment variable management, allowing the script to fetch and send data (Alpha Vantage and Google Sheets) securely without exposing sensitive API keys in the public repository.
   
 - Data Consistency: Since this data-set was a bit unorganized, I had to write custom cleaning functions to handle special characters in headlines and ensure the time_published strings were correctly parsed into a Tableau friendly DateTime format.
 
