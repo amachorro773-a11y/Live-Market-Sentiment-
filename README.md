@@ -43,6 +43,11 @@ Check out the live dashboard here: [Live Tableau Dashboard](https://public.table
 
 ## Market Sentiment Pulse
 - A raw sentiment is volatile, so with many sentiments rolling in we use the moving average to gauge the long-term vibe of the market.
+## Sentiment vs. Relevance
+This scatter plot categorizes every news article based on two critical dimensions: how intense the sentiment is (X-axis) and how relevant the article is to the specific ticker (Y-axis).
+- The "Market Movers" (Top Right/Left): These represent high-relevance articles with strong bullish (green) or bearish (red) sentiment.      These are the primary drivers for the Top 5 Headlines sheet and represent the most actionable data points in the pipeline.
+- The "High-Volume Noise" (Bottom Cluster): The dense cluster along the 0.0 relevance line shows articles that may mention a ticker but      aren't focused on it. By identifying this cluster, the dashboard successfully filters out "ticker-tagging" noise that would otherwise      skew the average sentiment score.
+- Neutral/General News (Center Cluster): Articles falling near the $0.0$ sentiment mark provide a baseline of general market updates,        showing stability rather than volatility.
 ## Market Vibe Gauge
 - Shows the distribution of Bearish vs. Bullish news counts, as well as neutral news. This provides a quick "health check" of the current
   news volume
