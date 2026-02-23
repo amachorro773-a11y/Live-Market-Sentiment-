@@ -42,18 +42,25 @@ By automating data extraction via the **Alpha Vantage API** and leveraging a **P
 Check out the live dashboard here: [Live Tableau Dashboard](https://public.tableau.com/shared/2ZS43KD5C?:display_count=n&:origin=viz_share_link)
 
 ## Market Sentiment Pulse
-- A raw sentiment is volatile, so with many sentiments rolling in we use the moving average to gauge the long-term vibe of the market.
+A dual-axis time series plot featuring raw sentiment data points (orange) overlaid with a Moving Average line (blue).
+- This chart identifies market momentum. While individual articles create significant "noise" (vertical spread), the moving average          smooths out the volatility to reveal the sustained trend of market opinion over several days.
+- Helps distinguish between a single bad headline and a systemic shift in market sentiment. For example, you can see if a cluster of         bearish news is starting to drag the long-term trend line downward.
+  
 ## Sentiment vs. Relevance
 This scatter plot categorizes every news article based on two critical dimensions: how intense the sentiment is (X-axis) and how relevant the article is to the specific ticker (Y-axis).
 - The "Market Movers" (Top Right/Left): These represent high-relevance articles with strong bullish (green) or bearish (red) sentiment.      These are the primary drivers for the Top 5 Headlines sheet and represent the most actionable data points in the pipeline.
 - The "High-Volume Noise" (Bottom Cluster): The dense cluster along the 0.0 relevance line shows articles that may mention a ticker but      aren't focused on it. By identifying this cluster, the dashboard successfully filters out "ticker-tagging" noise that would otherwise      skew the average sentiment score.
 - Neutral/General News (Center Cluster): Articles falling near the $0.0$ sentiment mark provide a baseline of general market updates,        showing stability rather than volatility.
+  
 ## Market Vibe Gauge
-- Shows the distribution of Bearish vs. Bullish news counts, as well as neutral news. This provides a quick "health check" of the current
-  news volume
+A pie chart showing the percentage breakdown of Bearish, Bullish, and Neutral sentiment, accompanied by a volume bar.
+- Provides an immediate "At-a-Glance" health check of the total news volume. It answers: "Is the current market environment predominantly    positive, negative, or just noisy?"
+- The "Neutral" slice often represents the "Market Noise" identified in your Relevance chart. A growing "Bearish" or "Bullish" slice         indicates a strong consensus is forming in the financial media, which often precedes higher trading volatility.
+  
 ## Top 5 Headlines
-- Provides the root cause for any spikes or dips seen in the Pulse timeline, allowing stakeholders to immediately identify the event.
-  Demonstrated by displaying the most relevant news in a text table.
+A dynamic text table sorted by the highest absolute sentiment scores.
+- This is the dashboard’s "Root Cause Analysis" tool. It provides the qualitative context—the actual stories—behind the quantitative         spikes seen in the Pulse chart.
+- By surfacing specific titles (like Bolt Data, Uber, or Garmin), it allows you to verify if a sentiment spike is driven by a sector-wide    event or a specific company's earnings report or product launch.
 
 
 
