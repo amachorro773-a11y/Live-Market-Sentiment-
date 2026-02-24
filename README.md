@@ -59,7 +59,7 @@ A pie chart showing the percentage breakdown of Bearish, Bullish, and Neutral se
   
 ## Top 5 Headlines
 A dynamic text table sorted by the highest absolute sentiment scores.
-- This is the dashboard’s "Root Cause Analysis" tool. It provides the qualitative context—the actual stories—behind the quantitative         spikes seen in the Pulse chart.
+- This is the dashboard’s "Root Cause Analysis" tool. It provides the qualitative context, the actual stories, behind the quantitative spikes seen in the Pulse chart.
 - By surfacing specific titles (like Bolt Data, Uber, or Garmin), it allows you to verify if a sentiment spike is driven by a sector-wide    event or a specific company's earnings report or product launch.
 
 # Why does this matter?
