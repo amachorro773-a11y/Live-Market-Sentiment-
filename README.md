@@ -80,6 +80,8 @@ __SIDE NOTE:__ While high sentiment is a strong indicator, this dashboard is int
 - Data Consistency: Since this data-set was a bit unorganized, I had to write custom cleaning functions to handle special characters in headlines and ensure the time_published strings were correctly parsed into a Tableau friendly DateTime format.
 
 - Aggregation Bias: Initially, I used "Sum" for sentiment, which skewed results toward stocks with high news volume. Switching to Moving Averages (AVG) was a key pivot that made the "Market Pulse" a more accurate reflection of actual sentiment trends.
+  
+- Path Management in CI/CD: When setting this project up for other users, I noticed that I did not create a folder with the needed libraries and dependencies, and decided to add it in towards the end. I learned that moving files into a /src directory requires updating the GitHub Actions workflow paths. This taught me the importance of maintaining alignment between repository structure and automated deployment scripts.
 
 # How to Use This Repo
 To reproduce this pipeline or explore the data processing logic, follow the steps below:
