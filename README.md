@@ -91,11 +91,11 @@ To reproduce this pipeline or explore the data processing logic, follow the step
 
 2. Installation & Setup\
 Clone the repository and install the necessary dependencies:
-
-git clone https://github.com/your-username/your-repo-name.git\
-cd your-repo-name\
-pip install -r requirements.txt\ \
-
+````
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+pip install -r requirements.txt\ 
+````
 NOTE: View the requirements.txt file for the full list of libraries (Pandas, GSpread, Requests, etc.).
 
 3. Repository Structure
@@ -105,7 +105,7 @@ NOTE: View the requirements.txt file for the full list of libraries (Pandas, GSp
 
 4. Running the Pipeline\
 To trigger a manual run of the data fetch:
-
+````
 python src/extract.py
-
+````
 (Ensure your environment variables for API keys and Google credentials are set up in your .env file or GitHub Secrets.)
