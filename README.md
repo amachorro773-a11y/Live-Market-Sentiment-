@@ -80,3 +80,32 @@ __SIDE NOTE:__ While high sentiment is a strong indicator, this dashboard is int
 - Data Consistency: Since this data-set was a bit unorganized, I had to write custom cleaning functions to handle special characters in headlines and ensure the time_published strings were correctly parsed into a Tableau friendly DateTime format.
 
 - Aggregation Bias: Initially, I used "Sum" for sentiment, which skewed results toward stocks with high news volume. Switching to Moving Averages (AVG) was a key pivot that made the "Market Pulse" a more accurate reflection of actual sentiment trends.
+
+# How to Use This Repo
+To reproduce this pipeline or explore the data processing logic, follow the steps below:
+
+1. Prerequisites
+- Python 3.x installed.
+- An Alpha Vantage API Key (Free tier).
+- A Google Cloud Service Account with access to the Google Sheets API.
+
+2. Installation & Setup
+Clone the repository and install the necessary dependencies:\
+
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+pip install -r requirements.txt\
+
+NOTE: View the requirements.txt file for the full list of libraries (Pandas, GSpread, Requests, etc.).
+
+3. Repository Structure
+- /src: Contains the core Python scripts, including the main data extraction and transformation logic.
+- /.github/workflows: Contains the .yml file for the GitHub Actions automation.
+- /data: (Optional) Sample CSV outputs or historical logs.
+
+4. Running the Pipeline
+To trigger a manual run of the data fetch:\
+
+python src/extract.py
+
+(Ensure your environment variables for API keys and Google credentials are set up in your .env file or GitHub Secrets.)
