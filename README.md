@@ -64,7 +64,7 @@ A dynamic text table sorted by the highest absolute sentiment scores.
 
 # Why does this matter?
 1. When deciding what stock to buy from the technology sector, I use the Sentiment Pulse chart and check for "Cross-overs" where the moving average begins to trend sharply up or down, indicating a shift in the market's long-term consensus.
-2. If the market seems good, meaning a shift upwards, I focus on the "Outliers" in the top corners of the Sentiment vs. Relevance chart, these are the high relevance, high sentiment articles that actually move stock prices.
+2. If the market seems good, meaning a shift upwards, I focus on the "Outliers" in the top corners of the Sentiment vs. Relevance chart. These are the high relevance, high sentiment articles that actually move stock prices.
 3. If there are bullish stocks, on the top right, I view the Top 5 Headlines table to see the best sentiment stocks with the highest relevance towards Apple (or any specified ticker of my choice).\
 __SIDE NOTE:__ While high sentiment is a strong indicator, this dashboard is intended to be used alongside technical price analysis and volume data to confirm entry points.
 
