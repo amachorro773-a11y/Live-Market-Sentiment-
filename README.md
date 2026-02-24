@@ -89,8 +89,8 @@ To reproduce this pipeline or explore the data processing logic, follow the step
 - An Alpha Vantage API Key (Free tier).
 - A Google Cloud Service Account with access to the Google Sheets API.
 
-2. Installation & Setup
-Clone the repository and install the necessary dependencies:\
+2. Installation & Setup\
+Clone the repository and install the necessary dependencies:
 
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
@@ -103,8 +103,8 @@ NOTE: View the requirements.txt file for the full list of libraries (Pandas, GSp
 - /.github/workflows: Contains the .yml file for the GitHub Actions automation.
 - /data: (Optional) Sample CSV outputs or historical logs.
 
-4. Running the Pipeline
-To trigger a manual run of the data fetch:\
+4. Running the Pipeline\
+To trigger a manual run of the data fetch:
 
 python src/extract.py
 
