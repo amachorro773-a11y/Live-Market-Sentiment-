@@ -10,9 +10,9 @@ Market sentiment represents the collective psychology and attitude of investors 
 While fundamental analysis looks at a company's "intrinsic value," sentiment acts as the driving force behind supply and demand, often influencing price movements before they appear in financial statements.
 
 ## Why does this matter?
-- Problem: Manually tracking market sentiment is a tedious, high-latency process. Relying on manual page refreshes or inconsistent weekly observations makes it difficult to capture the "vibe" of the market in real time.\
+- Manually tracking market sentiment is a tedious, high-latency process. Relying on manual page refreshes or inconsistent weekly observations makes it difficult to capture the "vibe" of the market in real time.\
 - I wanted something slightly more convinent for myself, something that shows me the "bigger picture" of the market history.
-- Solution: To solve this, I created an end-to-end Python data pipeline that automates the "Extract, Transform, Load" (ETL) process. This system pulls live news data, processes sentiment scores, and pushes them to a live Tableau dashboard, transforming raw headlines into a visual, historical narrative of the current market.
+- **To solve this**, I created an end-to-end Python data pipeline that automates the "Extract, Transform, Load" (ETL) process. This system pulls live news data, processes sentiment scores, and pushes them to a live Tableau dashboard, transforming raw headlines into a visual, historical narrative of the current market.
 
 # Tech Stack and Data Structures
 - Language: Python (Pandas, Requests)
