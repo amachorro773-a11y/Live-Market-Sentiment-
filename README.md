@@ -1,11 +1,14 @@
 # Project Background
-As a person new to investing, I wanted to make sure that I was making the right purchases on the "best" or most "reliable" stock. 
-Being new to this field of investing, I wanted to create this project to learn more about stocks and thier behaviors, while creating a useful tool to
-make the right stock purchases.\
-This project reviews **real time shifts in the overall sentiment for stock prices in the technology sector, tracking market trends for specific tickers such as AAPL (Apple Inc. Stock).**
+As a person new to investing, I recognized the challenge of identifying "reliable" assets in a volatile market. I developed this project to deepen my understanding of market dynamics while building a functional tool to assist in data-driven investment decisions.\
+This project monitors __real-time sentiment shifts__ within the technology sector, specifically tracking high-volume tickers like __AAPL (Apple Inc.)__ to correlate public discourse with market behavior.
+
 ## What does this mean?
-A sentiment is the overall attitude, mood, or psychology of investors toward a particular stock or the financial market as a whole, reflecting whether they are optimistic ("bullish") or pessimistic ("bearish"). 
-It acts as a driving force behind supply and demand, influencing price movements independent of fundamental, intrinsic value.
+Market sentiment represents the collective psychology and attitude of investors toward a specific asset or the market at large.
+- Bullish (Optimistic): Indicates a high probability of upward price movement.
+- Bearish (Pessimistic): Suggests a downward trend.
+
+While fundamental analysis looks at a company's "intrinsic value," sentiment acts as the driving force behind supply and demand, often influencing price movements before they appear in financial statements.
+
 ## Why does this matter?
 - I noticed how tedious and time-consuming it can be to manually look at these observations, as it can be slightly inconvineient to refresh a page to check for updates, and/or
   making your own observations by looking at the market history for the past week.
