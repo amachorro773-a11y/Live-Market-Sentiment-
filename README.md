@@ -94,7 +94,7 @@ To reproduce this pipeline or explore the data processing logic, follow the step
 2. Installation & Setup\
 Clone the repository and install the necessary dependencies:
 ````
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/amachorro773-a11y/Live-Market-Sentiment-.git
 cd your-repo-name
 pip install -r requirements.txt\ 
 ````
