@@ -4,8 +4,8 @@ This project monitors __real-time sentiment shifts__ within the technology secto
 
 ## What does this mean?
 Market sentiment represents the collective psychology and attitude of investors toward a specific asset or the market at large.
-**- Bullish (Optimistic): Indicates a high probability of upward price movement.**
-**- Bearish (Pessimistic): Suggests a downward trend.**
+- **Bullish (Optimistic): Indicates a high probability of upward price movement.**
+- **Bearish (Pessimistic): Suggests a downward trend.**
 
 While fundamental analysis looks at a company's "intrinsic value," sentiment acts as the driving force behind supply and demand, often influencing price movements before they appear in financial statements.
 
