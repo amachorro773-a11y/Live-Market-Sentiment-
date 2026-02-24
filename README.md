@@ -57,11 +57,11 @@ This scatter plot categorizes every news article based on two critical dimension
 ## Market Vibe Gauge
 A pie chart showing the percentage breakdown of Bearish, Bullish, and Neutral sentiment, accompanied by a volume bar.
 - Provides an immediate "At-a-Glance" health check of the total news volume. It answers whether the current market environment               is predominantly positive, negative, or noisy.
-- The "Neutral" slice often represents the "Market Noise" identified in your Relevance chart. A growing "Bearish" or "Bullish" slice         indicates a strong consensus is forming in the financial media, which often precedes higher trading volatility.
+- The "Neutral" slice often represents the "Market Noise" found in the Relevance chart. A growing "Bearish" or "Bullish" slice         indicates a strong consensus is forming in the financial media, which often means higher trading volatility.
   
 ## Top 5 Headlines
 A dynamic text table sorted by the highest absolute sentiment scores.
-- This is the dashboard’s "Root Cause Analysis" tool. It provides the qualitative context, the actual stories, behind the quantitative spikes seen in the Pulse chart.
+- This is the dashboard’s "Root Cause Analysis" tool. It provides the context behind the quantitative spikes seen in the Pulse chart.
 - By surfacing specific titles (like Bolt Data, Uber, or Garmin), it allows you to verify if a sentiment spike is driven by a sector-wide    event or a specific company's earnings report or product launch.
 
 # Why does this matter?
