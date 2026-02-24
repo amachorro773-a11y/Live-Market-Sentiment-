@@ -4,16 +4,15 @@ This project monitors __real-time sentiment shifts__ within the technology secto
 
 ## What does this mean?
 Market sentiment represents the collective psychology and attitude of investors toward a specific asset or the market at large.
-- Bullish (Optimistic): Indicates a high probability of upward price movement.
-- Bearish (Pessimistic): Suggests a downward trend.
+**- Bullish (Optimistic): Indicates a high probability of upward price movement.**
+**- Bearish (Pessimistic): Suggests a downward trend.**
 
 While fundamental analysis looks at a company's "intrinsic value," sentiment acts as the driving force behind supply and demand, often influencing price movements before they appear in financial statements.
 
 ## Why does this matter?
-- I noticed how tedious and time-consuming it can be to manually look at these observations, as it can be slightly inconvineient to refresh a page to check for updates, and/or
-  making your own observations by looking at the market history for the past week.
-  I wanted something slightly more convinent for myself, something that shows me the market history.
-- So I created an end to end python piplines that pulls, processes, and pushes data onto a live dashboard.
+- Problem: Manually tracking market sentiment is a tedious, high-latency process. Relying on manual page refreshes or inconsistent weekly observations makes it difficult to capture the "vibe" of the market in real time.\
+- I wanted something slightly more convinent for myself, something that shows me the "bigger picture" of the market history.
+- Solution: To solve this, I created an end-to-end Python data pipeline that automates the "Extract, Transform, Load" (ETL) process. This system pulls live news data, processes sentiment scores, and pushes them to a live Tableau dashboard, transforming raw headlines into a visual, historical narrative of the current market.
 
 # Tech Stack and Data Structures
 - Language: Python (Pandas, Requests)
