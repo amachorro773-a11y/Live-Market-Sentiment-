@@ -94,7 +94,7 @@ Impact:
 - Improved reliability and reduced external API dependency during user interactions.
 
 CI/CD Automation (GitHub Actions)
-Local scheduling (cron) was not scalable.
+Local scheduling (cron) was not scalable.\
 Solution:
 - Migrated execution to GitHub Actions with a scheduled .yml workflow to trigger daily pipeline runs.
 Impact:
