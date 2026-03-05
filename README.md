@@ -47,7 +47,8 @@ In Alpha Vantage's "technology" sector, relevant data is formatted into these ca
 The MSI Dashboard is divided into four tactical modules designed to streamline a Financial Analyst's daily workflow:
 
 
-<img width="649" height="859" alt="Dashboard 1 (2)" src="https://github.com/user-attachments/assets/dd482a92-2813-479e-8a20-bd99c48c6a01" />
+<img width="649" height="859" alt="Dashboard 1 (3)" src="https://github.com/user-attachments/assets/a1556657-2d2f-4f25-8081-eda637898c1b" />
+
 
 
 
