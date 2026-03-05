@@ -18,6 +18,7 @@ Monitoring market sentiment manually is inefficient and reactive. Analysts often
 - Subjective interpretation of headlines
 
 This creates a latency gap between market-moving news events and actionable insights.\
+
 The solution was to build an automated ETL pipeline that extracts financial news, quantifies sentiment and relevance, and delivers real-time visual analytics through an executive-facing dashboard.
 
 # Strategic Solution & Architecture
@@ -79,6 +80,16 @@ A pie chart showing the percentage breakdown of Bearish, Bullish, and Neutral se
 A dynamic text table sorted by the highest absolute sentiment scores.
 - This is the dashboard’s "Root Cause Analysis" tool. It provides the context behind the quantitative spikes seen in the Pulse chart.
 - By surfacing specific titles (like Bolt Data, Uber, or Garmin), it allows you to verify if a sentiment spike is driven by a sector-wide    event or a specific company's earnings report or product launch.
+
+# Analytical Use Case
+Within the simulated firm setting, this dashboard supports:
+- Sector rotation analysis
+- Earnings season monitoring
+- Event-driven trade validation
+- Volatility forecasting
+- Short-term momentum strategy confirmation
+
+The system is designed to complement technical price analysis and volume metrics rather than replace them.
 
 # Challenges & Lessons Learned
 - API Rate Limiting: One of the main hurdles was managing the Alpha Vantage API's free tier limits. I solved this by implementing a "caching" logic in Python, storing the daily news in Google Sheets so Tableau doesn't trigger a new API call every time a user refreshes the dashboard.
