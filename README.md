@@ -3,10 +3,10 @@ Role: Financial Data Analyst\
 Domain: Equity Research & Quantitative Analysis
 
 # Background
-Developed a Market Sentiment Intelligence Dashboard for a sample technology-focused investment firm to improve visibility into real-time sentiment shifts across high-volume technology equities (e.g., AAPL).
+Developed a Market Sentiment Intelligence Dashboard built to mirror workflows within a sector-focused equity research team, to improve visibility into real-time sentiment shifts across high-volume technology equities (e.g., AAPL).
 
 # Measurable Business Impact
-- **Operational Efficiency:** Reduced manual sentiment monitoring time by 90%+ (estimated), freeing up analyst bandwidth for strategic trade execution.
+- **Operational Efficiency:** Automated sentiment aggregation previously requiring manual news review, reducing monitoring time from hours to minutes per session.
 - **Latency Reduction:** Enabled near real-time sentiment tracking, replacing outdated weekly review cycles and allowing for faster reaction to market catalysts.
 - **Pipeline Optimization:** Consolidated multiple disparate news and API data sources into one automated, single-source-of-truth reporting pipeline.
 - **Scalability:** Built a flexible data framework that can be instantly adapted to monitor other sectors (e.g., Healthcare, Energy) simply by changing the API ticker parameters.
@@ -26,14 +26,6 @@ To solve this, I built a decision-support system.
 - **Automated Signal Generation:** Deployed Python scripts interfacing with the Alpha Vantage API to ingest and score live     technology sector news, eliminating manual tracking.
 - **Low-Latency Infrastructure:** Engineered a cloud-based data bridge using the Google Sheets API to ensure a persistent,     up-to-date warehouse without heavy overhead.
 - **Executive Visualization:** Architected a Tableau dashboard designed strictly for "At-a-Glance" decision-making,            translating complex data into a scannable narrative.
-
-## Crucial Terminology
-Market sentiment represents the collective psychology and attitude of investors toward a specific asset or the market at large.
-- **Bullish (Optimistic): Indicates a high probability of upward price movement.**
-- **Bearish (Pessimistic): Suggests a downward trend.**
-
-While fundamental analysis looks at a company's "intrinsic value," sentiment acts as the driving force behind supply and demand, often influencing price movements before they appear in financial statements.
-
 
 # Tech Stack and Data Structures
 - Language: Python (Pandas, Requests)
