@@ -101,28 +101,28 @@ Impact:
 - Created a fully automated, cloud-based execution layer independent of local uptime.
 
 Credential Security
-Public repositories posed a risk of API key exposure.
+Public repositories posed a risk of API key exposure.\
 Solution:
 - Implemented GitHub Actions Secrets and environment variables for secure credential injection.
 Impact:
 - Established secure DevOps practices aligned with production standards.
 
 Data Normalization & Cleaning
-Raw API data contained inconsistent formatting and non-standard timestamps.
+Raw API data contained inconsistent formatting and non-standard timestamps.\
 Solution:
 - Built custom preprocessing functions to normalize special characters and convert timestamps into Tableau-compatible DateTime format.
 Impact:
 - Ensured consistent aggregation and visualization accuracy.
 
 Aggregation Bias Correction
-Initial sentiment aggregation used SUM, which overweighted high-news-volume tickers.
+Initial sentiment aggregation used SUM, which overweighted high-news-volume tickers.\
 Solution:
 - Transitioned to moving averages (AVG smoothing) to better represent sustained sentiment trends rather than volume spikes.
 Impact:
 - Improved signal reliability and reduced statistical distortion.
 
 Repository & Deployment Alignment
-Refactoring into a /src directory initially broke CI workflow paths.
+Refactoring into a /src directory initially broke CI workflow paths.\
 Solution:
 - Updated GitHub Actions path references and standardized repository structure.
 Impact:
