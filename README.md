@@ -2,10 +2,10 @@
 Role: Financial Data Analyst\
 Domain: Equity Research & Quantitative Analysis
 
-# Background
+## Background
 Developed a Market Sentiment Intelligence Dashboard built to mirror workflows within a sector-focused equity research team, to improve visibility into real-time sentiment shifts across high-volume technology equities (e.g., AAPL).
 
-# Measurable Business Impact
+## Measurable Business Impact
 - **Operational Efficiency:** Automated sentiment aggregation previously requiring manual news review, reducing monitoring time from hours to minutes per session.
 - **Latency Reduction:** Enabled near real-time sentiment tracking, replacing outdated weekly review cycles and allowing for faster reaction to market catalysts.
 - **Pipeline Optimization:** Consolidated multiple disparate news and API data sources into one automated, single-source-of-truth reporting pipeline.
@@ -21,7 +21,7 @@ This creates a latency gap between market-moving news events and actionable insi
 
 The solution was to build an automated ETL pipeline that extracts financial news, quantifies sentiment and relevance, and delivers real-time visual analytics through an executive-facing dashboard.
 
-# Strategic Solution & Architecture
+## Strategic Solution & Architecture
 To solve this, I built a decision-support system.
 - **Automated Signal Generation:** Deployed Python scripts interfacing with the Alpha Vantage API to ingest and score live     technology sector news, eliminating manual tracking.
 - **Low-Latency Infrastructure:** Engineered a cloud-based data bridge using the Google Sheets API to ensure a persistent,     up-to-date warehouse without heavy overhead.
