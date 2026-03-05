@@ -1,4 +1,4 @@
-# Project: Strategic Market Sentiment Intelligence (MSI) System
+# Strategic Market Sentiment Intelligence (MSI) System
 Role: Financial Data Analyst\
 Domain: Equity Research & Quantitative Analysis
 
