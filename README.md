@@ -2,7 +2,7 @@
 Focus Area: Financial Data Analytics – Equity Markets
 
 ## Background
-Developed a Market Sentiment Intelligence Dashboard built to mirror workflows within a sector-focused equity research team, to improve visibility into real-time sentiment shifts across high-volume technology equities (e.g., AAPL).
+Developed a Market Sentiment Intelligence Dashboard built to mirror workflows within a sector focused equity research team, to improve visibility into real time sentiment shifts across high volume technology equities (e.g., AAPL).
 
 ## Measurable Business Impact
 - **Operational Efficiency:** Automated sentiment aggregation previously requiring manual news review, reducing monitoring time from hours to minutes per session.
