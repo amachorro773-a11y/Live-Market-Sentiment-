@@ -43,7 +43,8 @@ In Alpha Vantage's "technology" sector, relevant data is formatted into these ca
 # High Level Overview
 <img width="930" height="716" alt="Live_Market drawio" src="https://github.com/user-attachments/assets/db8196ad-0759-4c5b-8b83-d64c268dd92d" />
 
-# Analytical Deep Dive: The Dashboard Modules
+
+# MSI Dashboard
 The MSI Dashboard is divided into four tactical modules designed to streamline a Financial Analyst's daily workflow:
 <img width="649" height="859" alt="Dashboard 1 (2)" src="https://github.com/user-attachments/assets/dd482a92-2813-479e-8a20-bd99c48c6a01" />
 
