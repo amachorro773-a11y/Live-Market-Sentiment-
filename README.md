@@ -3,7 +3,7 @@ Role: Financial Data Analyst\
 Domain: Equity Research & Quantitative Analysis
 
 # Executive Summary
-I engineered a Market Sentiment Intelligence system to help investment teams quantify volatility and detect macroeconomic trend shifts earlier than traditional fundamental analysis allows. By transforming unstructured, high-volume financial news into a real-time Sentiment Index, this tool allows portfolio managers to identify momentum shifts before they are fully priced into the market.
+Developed a Market Sentiment Intelligence Dashboard for a sample technology-focused investment firm to improve visibility into real-time sentiment shifts across high-volume technology equities (e.g., AAPL).
 
 # Measurable Business Impact
 - **Operational Efficiency:** Reduced manual sentiment monitoring time by 90%+ (estimated), freeing up analyst bandwidth for strategic trade execution.
