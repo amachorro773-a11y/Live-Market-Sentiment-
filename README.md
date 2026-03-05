@@ -45,6 +45,8 @@ In Alpha Vantage's "technology" sector, relevant data is formatted into these ca
 
 # MSI Dashboard
 The MSI Dashboard is divided into four tactical modules designed to streamline a Financial Analyst's daily workflow:
+
+
 <img width="649" height="859" alt="Dashboard 1 (2)" src="https://github.com/user-attachments/assets/dd482a92-2813-479e-8a20-bd99c48c6a01" />
 
 
@@ -83,18 +85,48 @@ This dashboard supports:
 
 The system is designed to complement technical price analysis and volume metrics rather than replace them.
 
-# Challenges & Lessons Learned
-- API Rate Limiting: One of the main hurdles was managing the Alpha Vantage API's free tier limits. I solved this by implementing a "caching" logic in Python, storing the daily news in Google Sheets so Tableau doesn't trigger a new API call every time a user refreshes the dashboard.
-  
-- Github Actions: I needed the data pipeline to run reliably every day without relying on my local machine's uptime or using local scheduling tools like cron. So I migrated the execution layer to GitHub Actions, configured a .yml workflow to trigger the Python script on a daily schedule, ensuring the Tableau dashboard stays updated automatically.
-  
-- Github Actions Secrets for Security: To protect my API credentials, I implemented GitHub Actions Secrets. This taught me the importance of environment variable management, allowing the script to fetch and send data (Alpha Vantage and Google Sheets) securely without exposing sensitive API keys in the public repository.
-  
-- Data Consistency: Since this data-set was a bit unorganized, I had to write custom cleaning functions to handle special characters in headlines and ensure the time_published strings were correctly parsed into a Tableau friendly DateTime format.
+# System Constraints and Solutions
+API Rate Limiting (Alpha Vantage Free Tier)
+The API’s rate limits created instability in repeated dashboard refreshes.
+Solution:
+- Implemented a caching layer using Google Sheets as a lightweight data store, reducing redundant API calls and stabilizing the reporting layer.
+Impact:
+- Improved reliability and reduced external API dependency during user interactions.
 
-- Aggregation Bias: Initially, I used "Sum" for sentiment, which skewed results toward stocks with high news volume. Switching to Moving Averages (AVG) was a key pivot that made the "Market Pulse" a more accurate reflection of actual sentiment trends.
-  
-- Path Management in CI/CD: When setting this project up for other users, I noticed that I did not create a folder with the needed libraries and dependencies, and decided to add it in towards the end. I learned that moving files into a /src directory requires updating the GitHub Actions workflow paths. This taught me the importance of maintaining alignment between repository structure and automated deployment scripts.
+CI/CD Automation (GitHub Actions)
+Local scheduling (cron) was not scalable or production-ready.
+Solution:
+- Migrated execution to GitHub Actions with a scheduled .yml workflow to trigger daily pipeline runs.
+Impact:
+- Created a fully automated, cloud-based execution layer independent of local uptime.
+
+Credential Security
+Public repositories posed a risk of API key exposure.
+Solution:
+- Implemented GitHub Actions Secrets and environment variables for secure credential injection.
+Impact:
+- Established secure DevOps practices aligned with production standards.
+
+Data Normalization & Cleaning
+Raw API data contained inconsistent formatting and non-standard timestamps.
+Solution:
+- Built custom preprocessing functions to normalize special characters and convert timestamps into Tableau-compatible DateTime format.
+Impact:
+- Ensured consistent aggregation and visualization accuracy.
+
+Aggregation Bias Correction
+Initial sentiment aggregation used SUM, which overweighted high-news-volume tickers.
+Solution:
+- Transitioned to moving averages (AVG smoothing) to better represent sustained sentiment trends rather than volume spikes.
+Impact:
+- Improved signal reliability and reduced statistical distortion.
+
+Repository & Deployment Alignment
+Refactoring into a /src directory initially broke CI workflow paths.
+Solution:
+- Updated GitHub Actions path references and standardized repository structure.
+Impact:
+- Reinforced understanding of dependency management and CI/CD integration discipline.
 
 # How to Use This Repo
 To reproduce this pipeline or explore the data processing logic, follow the steps below:
