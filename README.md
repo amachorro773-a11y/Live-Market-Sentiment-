@@ -1,6 +1,5 @@
 # Strategic Market Sentiment Intelligence (MSI) System
-Role: Financial Data Analyst\
-Domain: Equity Research & Quantitative Analysis
+Focus Area: Financial Data Analytics – Equity Markets
 
 ## Background
 Developed a Market Sentiment Intelligence Dashboard built to mirror workflows within a sector-focused equity research team, to improve visibility into real-time sentiment shifts across high-volume technology equities (e.g., AAPL).
