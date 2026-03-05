@@ -2,7 +2,7 @@
 Role: Financial Data Analyst\
 Domain: Equity Research & Quantitative Analysis
 
-# Executive Summary
+# Background
 Developed a Market Sentiment Intelligence Dashboard for a sample technology-focused investment firm to improve visibility into real-time sentiment shifts across high-volume technology equities (e.g., AAPL).
 
 # Measurable Business Impact
@@ -12,9 +12,12 @@ Developed a Market Sentiment Intelligence Dashboard for a sample technology-focu
 - **Scalability:** Built a flexible data framework that can be instantly adapted to monitor other sectors (e.g., Healthcare, Energy) simply by changing the API ticker parameters.
 
 # The Business Problem
-In high-velocity tech markets, fundamental data establishes a company's intrinsic value, but real-time market sentiment dictates the short term supply and demand dynamics that actually move the ticker.\
-For equity research desks, relying on manual news aggregation results in **high-latency decision-making**. By the time analysts manually capture the "vibe" of the market, the sentiment shift has already occurred.\
-The objective was to eliminate this latency, reduce human bias, and provide a quantifiable, actionable leading indicator to confirm trade entries and exits.
+Monitoring market sentiment manually is inefficient and reactive. Analysts often rely on:
+- Periodic news reviews
+- Delayed price reactions
+- Subjective interpretation of headlines
+This creates a latency gap between market-moving news events and actionable insights.\
+The solution was to build an automated ETL pipeline that extracts financial news, quantifies sentiment and relevance, and delivers real-time visual analytics through an executive-facing dashboard.
 
 # Strategic Solution & Architecture
 To solve this, I built a decision-support system.
