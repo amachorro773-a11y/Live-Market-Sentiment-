@@ -27,7 +27,7 @@ To solve this, I built a decision-support system.
 - **Low-Latency Infrastructure:** Engineered a cloud-based data bridge using the Google Sheets API to ensure a persistent,     up-to-date warehouse without heavy overhead.
 - **Executive Visualization:** Architected a Tableau dashboard designed strictly for "At-a-Glance" decision-making,            translating complex data into a scannable narrative.
 
-# Tech Stack and Data Structures
+## Tech Stack and Data Structures
 - Language: Python (Pandas, Requests)
 - API: Alpha Vantage (Market News & Sentiment)
 - Storage/Bridge: Google Sheets API (gspread)
@@ -40,7 +40,7 @@ In Alpha Vantage's "technology" sector, relevant data is formatted into these ca
 
 
 
-# High Level Overview
+## High Level Overview
 <img width="930" height="716" alt="Live_Market drawio" src="https://github.com/user-attachments/assets/db8196ad-0759-4c5b-8b83-d64c268dd92d" />
 
 
