@@ -17,7 +17,7 @@ Monitoring market sentiment manually is inefficient and reactive. Analysts often
 - Delayed price reactions
 - Subjective interpretation of headlines
 
-This creates a latency gap between market-moving news events and actionable insights.\
+This creates a latency gap between market-moving news events and actionable insights.
 
 The solution was to build an automated ETL pipeline that extracts financial news, quantifies sentiment and relevance, and delivers real-time visual analytics through an executive-facing dashboard.
 
