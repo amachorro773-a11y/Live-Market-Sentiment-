@@ -1,10 +1,20 @@
 # Project: Strategic Market Sentiment Intelligence (MSI) System
 Role: Financial Data Analyst\
-Domain: Equity Research & Quantitative Analysis\
+Domain: Equity Research & Quantitative Analysis
+
+# Executive Summary
+I engineered a Market Sentiment Intelligence system to help investment teams quantify volatility and detect macroeconomic trend shifts earlier than traditional fundamental analysis allows. By transforming unstructured, high-volume financial news into a real-time Sentiment Index, this tool allows portfolio managers to identify momentum shifts before they are fully priced into the market.
+
+# Measurable Business Impact
+- **Operational Efficiency:** Reduced manual sentiment monitoring time by 90%+ (estimated), freeing up analyst bandwidth for strategic trade execution.
+- **Latency Reduction:** Enabled near real-time sentiment tracking, replacing outdated weekly review cycles and allowing for faster reaction to market catalysts.
+- **Pipeline Optimization:** Consolidated multiple disparate news and API data sources into one automated, single-source-of-truth reporting pipeline.
+- **Scalability:** Built a flexible data framework that can be instantly adapted to monitor other sectors (e.g., Healthcare, Energy) simply by changing the API ticker parameters.
 
 # The Business Problem
-In high-velocity tech markets, fundamental data establishes a company's intrinsic value, but real-time market sentiment dictates the short-term supply and demand dynamics that actually move the ticker.\
-For equity research desks, relying on manual news aggregation results in **high-latency decision-making**. By the time analysts manually capture the "vibe" of the market, the sentiment shift has already occurred. The objective was to eliminate this latency, reduce human bias, and provide a quantifiable, actionable leading indicator to confirm trade entries and exits.
+In high-velocity tech markets, fundamental data establishes a company's intrinsic value, but real-time market sentiment dictates the short term supply and demand dynamics that actually move the ticker.\
+For equity research desks, relying on manual news aggregation results in **high-latency decision-making**. By the time analysts manually capture the "vibe" of the market, the sentiment shift has already occurred.\
+The objective was to eliminate this latency, reduce human bias, and provide a quantifiable, actionable leading indicator to confirm trade entries and exits.
 
 # Strategic Solution & Architecture
 To solve this, I built a decision-support system.
