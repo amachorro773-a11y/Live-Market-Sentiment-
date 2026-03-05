@@ -90,6 +90,7 @@ API Rate Limiting (Alpha Vantage Free Tier)
 The API’s rate limits created instability in repeated dashboard refreshes.
 Solution:
 - Implemented a caching layer using Google Sheets as a lightweight data store, reducing redundant API calls and stabilizing the reporting layer.
+
 Impact:
 - Improved reliability and reduced external API dependency during user interactions.
 
