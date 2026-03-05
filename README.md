@@ -1,4 +1,4 @@
-# Strategic Market Sentiment Intelligence (MSI) System
+# Market Sentiment Intelligence (MSI) System
 ## Background
 Developed a Market Sentiment Intelligence Dashboard built to mirror workflows within a sector focused equity research team, to improve visibility into real time sentiment shifts across high volume technology equities (e.g., AAPL).
 
