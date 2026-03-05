@@ -42,7 +42,7 @@ In Alpha Vantage's "technology" sector, relevant data is formatted into these ca
 
 
 # MSI Dashboard
-This dashboard is divided into four tactical modules designed to streamline a Financial Analyst's daily workflow:
+This dashboard is divided into four tactical modules:
 
 
 <img width="652" height="860" alt="Screenshot 2026-03-04 at 6 02 29 PM" src="https://github.com/user-attachments/assets/1bdfb965-14a1-4615-98cb-23916f324501" />
