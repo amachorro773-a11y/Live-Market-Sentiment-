@@ -74,8 +74,8 @@ A dynamic text table sorted by the highest absolute sentiment scores.
 - It provides the context behind the quantitative spikes seen in the Pulse chart.
 - By surfacing specific titles (like Bolt Data, Uber, or Garmin), it allows you to verify if a sentiment spike is driven by a sector-wide    event or a specific company's earnings report or product launch.
 
-# Analytical Use Case
-Within the simulated firm setting, this dashboard supports:
+# Analytical Applications
+This dashboard supports:
 - Sector rotation analysis
 - Earnings season monitoring
 - Event-driven trade validation
