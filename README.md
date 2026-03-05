@@ -53,7 +53,7 @@ The MSI Dashboard is divided into four tactical modules designed to streamline a
 
 Check out the live dashboard here: [Live Tableau Dashboard](https://public.tableau.com/shared/2ZS43KD5C?:display_count=n&:origin=viz_share_link)
 
-## Market Sentiment Pulse (Momentum Tracking)
+## Sentiment Pulse (Momentum Tracking)
 A dual-axis time series plot featuring raw sentiment data points (orange) overlaid with a Moving Average line (blue).
 - This chart identifies market momentum. While individual articles create significant "noise" (vertical spread), the moving average          smooths out the volatility to reveal the sustained trend of market opinion over several days.
 - Helps distinguish between a single bad headline and a systemic shift in market sentiment. For example, you can see if a cluster of         bearish news is starting to drag the long-term trend line downward.
