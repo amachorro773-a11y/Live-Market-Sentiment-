@@ -83,4 +83,4 @@ This dashboard supports:
 
 The system is designed to complement technical price analysis and volume metrics rather than replace them.
 
-**System Constraints and Solutions: [System Constraints and Solutions](https://docs.google.com/document/d/1aNSJspkbH9vK6Zz5qZ-M_klvA0CUCts7qUyYW2nkqGs/edit?tab=t.0)**
+**Additional Info: [System Constraints and Solutions](https://docs.google.com/document/d/1aNSJspkbH9vK6Zz5qZ-M_klvA0CUCts7qUyYW2nkqGs/edit?tab=t.0)**
